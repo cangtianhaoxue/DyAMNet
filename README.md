@@ -1,10 +1,10 @@
-# EII-DAN: EEG-based Individual Identification via Domain Adversarial Network
+# DyAMNet：Dynamic Adversarial and Contrastive Network for EEG Biometrics
 
 > A Deep Learning Framework for Cross-Domain EEG Individual Recognition
 
 ## Model Overview
 
-EII-DAN is a deep learning model designed for **cross-domain EEG individual identification**, integrating **multi-scale spatiotemporal encoding**, **hybrid attention mechanisms**, and **contrast-enhanced domain adversarial training** to achieve robust feature extraction and cross-domain generalization from EEG signals.
+DyAMNet is a deep learning model designed for **cross-domain EEG individual identification**, integrating **multi-scale spatiotemporal encoding**, **hybrid attention mechanisms**, and **contrast-enhanced domain adversarial training** to achieve robust feature extraction and cross-domain generalization from EEG signals.
 
 
 ## Model Architecture
@@ -30,10 +30,4 @@ EII-DAN is a deep learning model designed for **cross-domain EEG individual iden
    - Contrastive loss for same-subject feature alignment
    - Gradient reversal layer for domain-invariant feature learning
 
-## Quick Start
 
-### Environment Setup
-```bash
-git clone https://gitee.com/LEELILI/EII-DAN.git
-cd EII-DAN
-pip install -r requirements.txt
